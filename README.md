@@ -1,4 +1,31 @@
-# Welcome to your Lovable project
+
+# Vibe Fund: AI Model Stock Price Prediction Benchmark
+
+## Project Brief
+
+"Create a benchmark webapp called Vibe Fund. Two phases to it:
+
+PHASE A:
+
+1. for each reasoning model on OpenRouter with at least 200k context,
+2. for each of the most popular stocks in the S&P 500,
+3. at the start of each day,
+4. while feeding each LLM a list of fundamentals and news about each stock in the prompt,
+5. predict the closing price, using a single LLM request with maximum reasoning
+
+For the models, we can start with just openai o3, claude 3.7 sonnet, gemini 2.5 pro, and DeepSeek R1.
+
+Each prediction should be stored and clearly viewable in a stock-chart-like UI.
+
+PHASE B:
+
+At the close of the stock market each day,
+1. for each stock,
+2. find the closing price,
+3. grade each model (show how far off it was),
+4. update a total score (weighted mean) for each model
+
+The total scores of each model should be shown in a table, sorted highest score descending, at the very top of the front page."
 
 ## Project info
 
