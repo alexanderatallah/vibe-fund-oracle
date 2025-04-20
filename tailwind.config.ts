@@ -52,6 +52,25 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				profit: {
+					DEFAULT: '#22c55e', // green
+					muted: '#86efac'
+				},
+				loss: {
+					DEFAULT: '#ef4444', // red
+					muted: '#fca5a5'
+				},
+				chart: {
+					bg: '#f8fafc',
+					grid: '#e2e8f0',
+					tooltip: '#1e293b'
+				},
+				model: {
+					openai: '#74aa9c',
+					claude: '#6f42c1',
+					gemini: '#4285f4',
+					deepseek: '#ff7043'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
